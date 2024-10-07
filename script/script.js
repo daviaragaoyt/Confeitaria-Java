@@ -81,7 +81,9 @@ produtos.map((item) => {
     <h3>${item.nome}</h3>
     <div class="price">R$ ${item.preco}</div>
     <button onclick='adicionarCarrinho(${item.idProduto}, "catalago1")' id="candy2" type="submit" class="btn">
-        <a href="../cart.html">Adicionar ao carrinho</a>
+        <a href="../produto/index.html">
+        <i class="fab fa-whatsapp"></i>
+        Fazer Pedido</a>
     </button>
 </div>`;
 });
@@ -155,13 +157,7 @@ outrosProdutos.map((item) => {
     </div>
     <div class="content">
         <h3>${item.nome}</h3 >
-        <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-        </div>
+       
         <div class="price">${item.preco}</div>
         <button id="candy12" type="submit" class="btn">
             <a href="../cart.html" onclick='adicionarCarrinho(${item.idProduto}, "catalago2")'>Adicionar ao carrinho</a>
