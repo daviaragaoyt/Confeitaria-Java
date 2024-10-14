@@ -15,17 +15,15 @@
         </div>
     </nav>
     <div class="container">
-        <!-- Navbar simples na lateral superior esquerda -->
-          <!-- Formulário de login na lateral esquerda -->
+        <!-- Formulário de login na lateral esquerda -->
         <div class="login-box">
             <div class="form-container">
-                
-                <form >
+                <form id="loginForm">
                     <label for="name">Nome:</label>
-                    <input type="text" id="name" name="name" placeholder="Digite seu nome">
+                    <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
 
                     <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
 
                     <button type="submit">Acessar</button>
                 </form>
@@ -37,6 +35,7 @@
             <img src="imgs/logo.png" alt="Melo's Confeitaria">
         </div>
     </div>
+    <script src="./script/index.js"></script>
 </body>
 
 </html>
